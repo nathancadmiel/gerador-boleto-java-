@@ -24,7 +24,7 @@ public class BoletoDAO {
             stmt.setString(10, b.getDataVencimento());
 
             stmt.executeUpdate();
-            System.out.println("✅ Dados salvos no MySQL com sucesso!");
+            System.out.println("Dados salvos no MySQL com sucesso!");
 
         } catch (SQLException e) {
             System.err.println("❌ Erro ao salvar no banco: " + e.getMessage());

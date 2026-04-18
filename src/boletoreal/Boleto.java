@@ -15,10 +15,10 @@ public class Boleto {
     String dataEmissao;
     String dataVencimento;
 
-    // Construtor privado: só o Builder pode criar
+ 
     Boleto() {}
 
-    // Getters
+
     public String getBanco() { return banco; }
     public String getAgencia() { return agencia; }
     public String getConta() { return conta; }
